@@ -13,8 +13,10 @@ gem 'rails', '~> 5.0.2'
 gem 'sqlite3' , group: [:development , :test]
 
 
-#postgres for production db
+#postgres for production gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'db
 gem 'pg' , group: :production
+#stripe
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 
 #12 factor for heruko
 gem'rails_12factor', group: :production
